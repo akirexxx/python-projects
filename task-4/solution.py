@@ -403,7 +403,7 @@ def solution() -> str:
     loaded_users = load_users(TALLBIT)
     parsed_users = parse_users(loaded_users)
 
-    # rapporten skrivs även om `find_culprit` skulle kasta NoUniqueCulpritError
+    # The report is also generated if `find_culprit` raises a NoUniqueCulpritError.
     write_report(RAPPORT, SUSPECTS, COMPUTER, parsed_users, loaded_rooms)
     suspects = find_culprit(SUSPECTS, COMPUTER, parsed_users, loaded_rooms)
 
