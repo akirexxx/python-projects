@@ -43,7 +43,7 @@ Each part of the investigation is organized into its own subfolder (task-1/ thro
 | **1** | Decrypt the hackers' message | strings, functions |
 | **2** | Read `access.log` — who left the data center 13–18? | files, `with`, filtering |
 | **3** | Read `tracking.json` — which computer is isolated? | `json`, helper functions, floats, error handling |
-| **4** | Connect `users.yml` + `rooms.csv` — who is the culprit? | `pyyaml`, `csv`, slicing |
+| **4** | Connect user data + room data — who is the culprit? | `dataclasses`, `Enum`, `csv`, `requests`, JSON parsing, data validation, exception handling, logging |
 
 ## Workflow & Running the Code
 
