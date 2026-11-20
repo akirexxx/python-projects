@@ -1,4 +1,4 @@
-# Analys av accessloggar
+# Analysis of access logs
 Find out who left the data center and identify the potential suspect/s. 
 
 ## Program overview
