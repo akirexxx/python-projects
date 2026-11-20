@@ -27,7 +27,7 @@ Nobody knows who. Yet.
 
 # Welcome to ANTIVENOM
 
-You are an analyst in Anaconda Industries' **incident response group**. The hackers are the poison — **you are the antidote.**
+The project is part of Anaconda Industries' incident response operations, focusing on identifying threats, investigating security incidents and tracking down the individuals responsible for malicious activities. The goal is to analyze the evidence and help neutralize the threat.
 
 1. **Crack the Code** — decrypt the message
 2. **Follow the Access Cards** — who left the data center?
@@ -49,22 +49,24 @@ Each part of the investigation is organized into its own subfolder (task-1/ thro
 
 Each subfolder contains its own solution.py, test suite, and local README.md detailing specific assumptions and results for that step.
 
-# Structure of Your Project Folder
+# Structure of Project directory
 
 ```text
-my-project/
+PYTHON_PROJECT/
 │
-├── projekt-inlamningsuppgift.md
 ├── task-1/
 │   ├── solution.py
-│   └── README.md
+│   └── test_solution.py
+│
 ├── task-2/
 │   ├── solution.py
-│   └── README.md
+│   └── test_solution.py
+│
 ├── task-3/
 │   ├── solution.py
-│   └── README.md
+│   └── test_solution.py
+│
 └── task-4/
     ├── solution.py
-    └── README.md
+    └── test_solution.py
 ```
